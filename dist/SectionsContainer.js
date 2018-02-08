@@ -178,7 +178,7 @@ var SectionsContainer = function (_React$Component) {
             var delta = Math.max(-1, Math.min(1, e.wheelDelta || -e.detail));
             var activeSection = this.state.activeSection - delta;
 
-            if (this.state.scrollingStarted || activeSection < 0 || this._childrenLength === activeSection) {
+            if (this.state.scrollingStarted || activeSection < 0) {
                 return false;
             }
 
