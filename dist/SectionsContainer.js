@@ -255,7 +255,7 @@ var SectionsContainer = function (_React$Component) {
             elapsedTime,
                 startTime,
                 handleswipe = function handleswipe(swipedir) {
-                console.log(swipedir);
+                //console.log(swipedir);
             };
 
             touchsurface.addEventListener('touchstart', function (e) {
