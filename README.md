@@ -1,6 +1,7 @@
 ## React Full Page
 
 areher: modified dist/SectionsContainer.js because scroll with mousewheel wasn't working properly
+areher: modified dist/SectionsContainer.js with new prop (noBack) to disable section transition
 
 This is an implementation of [fullpage.js](https://github.com/alvarotrigo/fullPage.js) in react.
 For the moment this is still in development and a lot of things can change.
