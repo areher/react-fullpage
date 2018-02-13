@@ -204,7 +204,7 @@ var SectionsContainer = function (_React$Component) {
         value: function _handleSectionTransition(index) {
             var position = 0 - index * this.state.windowHeight;
 
-            if (!this.props.anchors.length || index === -1 || index >= this.props.anchors.length) {
+            if (!this.props.anchors.length || index === -1 || index >= this.props.anchors.length || this.props.noBack) {
                 return false;
             }
 
